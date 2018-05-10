@@ -1,10 +1,3 @@
-/*
- * mcp2515.h
- *
- *  Created on: 27 paź 2017
- *      Author: rysiek
- */
-
 #ifndef MCP2515_H_
 #define MCP2515_H_
 
@@ -31,18 +24,31 @@
 #define CANINTE		0x2B
 #define CANSTAT		0x0E
 #define CANCTRL		0x0F
+#define RXB0CTRL	0x60
+#define RXB0SIDH	0x61
+#define RXB0SIDL	0x62
 #define RXB1CTRL	0x70
 #define RXB1SIDH	0x71
 #define RXB1SIDL	0x72
 #define RXB1DLC		0x75
+#define RXB0D0		0x66
+#define RXB0D1		0x67
+#define RXB0D2		0x68
+#define RXB0D3		0x69
 #define RXB1D0		0x76
 #define RXB1D1		0x77
 #define RXB1D2		0x78
 #define RXB1D3		0x79
+#define RXF0SIDH	0x00
+#define	RXF0SIDL	0x01
+#define RXF1SIDH	0x04
+#define RXF1SIDL	0x05
 #define RXF2SIDH	0x08
 #define RXF2SIDL	0x09
 #define RXF3SIDH	0x10
 #define RXF3SIDL	0x11
+#define RXM0SIDH	0x20
+#define RXM0SIDL	0x21
 #define RXM1SIDH	0x24
 #define RXM1SIDL	0x25
 
@@ -145,7 +151,7 @@
 #define DLC1		1
 #define DLC0		0
 
-//	BIT DEFINITIONS RXB1Dn
+//	BIT DEFINITIONS RXBnDM
 #define RBD7		7
 #define RBD6		6
 #define RBD5		5

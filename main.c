@@ -1,10 +1,3 @@
-/*
- * main.c
- *
- *  Created on: 29 wrz 2017
- *      Author: rysiek
- */
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>

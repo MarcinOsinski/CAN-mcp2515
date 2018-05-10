@@ -1,10 +1,3 @@
-/*
- * mcp2515.c
- *
- *  Created on: 27 paź 2017
- *      Author: rysiek
- */
-
 #include "mcp2515.h"
 
 
